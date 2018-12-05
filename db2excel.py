@@ -8,11 +8,11 @@ df = pd.read_csv(code_table_path, encoding='gbk', header=None)
 df.sort_index(inplace=True)
 
 db_conn = pymysql.connect(
-    host="106.75.45.237",  # ip
-    database="CUS_FUND_DB",
-    user="simu_sdmydx",  # 用户名
-    password="FTG51r2CTon0FWrN",  # 密码
-    port=15445,  # 端口号
+    host="",  # ip
+    database="",
+    user="",  # 用户名
+    password="",  # 密码
+    port=,  # 端口号
     charset='utf8'
 )
 
